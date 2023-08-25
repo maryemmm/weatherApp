@@ -7,7 +7,7 @@ function App() {
   const [isCelsius, setIsCelsius] = useState(true);
   const [error, setError] = useState(null); // State to hold error message
 
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=93d12964634b48b683b154401232208&q=${location}&aqi=no`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=93d12964634b48b683b154401232208&q=${location}&aqi=no`;
 
   const searchLocation = async (event) => {
     if (event.key === "Enter") {
