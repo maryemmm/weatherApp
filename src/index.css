@@ -14,7 +14,7 @@ body {
   padding: 0; /* Remove default padding for the body */
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the body covers at least the viewport height */
+  /* Ensure the body covers at least the viewport height */
 }
 
 .app {
@@ -22,6 +22,7 @@ body {
   flex: 1; /* Allow .app to take remaining vertical space */
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
+  min-height: 100vh;
 }
 
 .app:before {
